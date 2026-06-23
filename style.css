@@ -1,0 +1,53 @@
+
+a {
+    background-color: rgb(15, 15, 228);
+    color:white;
+    padding: 10px 20px;
+    text-decoration: none;
+
+    transition: all 0.3s ease;
+}
+a:hover {
+    background : red;
+    border-radius: 20px;
+
+}
+.btn {
+    
+    background-color: rgb(15, 15, 228);
+    color:white;
+    padding: 10px 20px;
+    text-decoration: none;
+
+    animation: mymove 5s infinite alternate;
+    
+}
+
+@keyframes mymove {
+    from{
+        left:0;
+    }
+to{
+        left: 400px
+    }
+} 
+
+.sidebar {
+    width: 200px;
+    float: left;
+    background-color: blue;
+}
+.content {
+    width: calc(100% - 200px);
+    float: left;
+    background-color: red;
+}
+
+.container img {
+    width:200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    object-fit: cover;
+    
+}
