@@ -3,29 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>html revision</title>
+    <title>E-commerce Website</title>
     <link rel="stylesheet" href="style.css">
-    
 </head>
 <body>
-   <h1>my heading</h1>
-   <p>come to my house and say hello</p>
 
-   <a href="#">Link created</a>
-   <button class="btn">click me </button>
+  <header class="header">
+    <div class="logo">ShopEase</div>
 
-    <div class="box"></div>
+    <input type="text" class="search-input" placeholder="Search products...">
 
-   <div class="sidebar">abcd</div>
-   <div class="content">efgh</div>
+    <button class="cart-btn">
+      🛒 <span class="cart-count">0</span>
+    </button>
+  </header>
 
-   <div class="container"></div>
+  <main class="main-container">
+        
+    <aside class="filters-sidebar">
+      <h3>Categories</h3>
+      <button onclick="filterCategory('all')">All</button>
+      <button onclick="filterCategory('shoes')">Shoes</button>
+      <button onclick="filterCategory('watch')">Watch</button>
+      <button onclick="filterCategory('doll')">doll</button>
+      <button onclick="filterCategory('fan')">fan</button>
+      <button onclick="filterCategory('tshirt')">tshirt</button>
+      <button onclick="filterCategory('grinder')">Grinder</button>
+    </aside>
+    
+    <section id="productList" class="products-grid">
+      <!-- Products -->
+    </section>
 
+  </main>
 
-   <input type="text" id="taskInput">
-   <button id="addBtn">Add</button>
+  <div id="cart" class="cart-drawer">
+  <div style="display: flex; justify-content: space-between; align-items: center;">
+    <h2>Shopping Cart</h2>
+    <button onclick="toggleCart()" style="background:none; border:none; font-size: 20px; cursor:pointer;">✕</button>
+  </div>
+  <hr>
 
+  <div id="cartItemsList">
+    </div>
 
-   <script src="script.js"></script>
+  <div id="cartFooter">
+    </div>
+</div>
+
+  <script src="app.js"></script>
 </body>
 </html>
