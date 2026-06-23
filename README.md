@@ -1,22 +1,33 @@
-# E-Commerce Store
+# 🛒 E-Commerce Store
 
-A responsive e-commerce web application built using HTML, CSS, and JavaScript.
+A responsive E-Commerce web application built using HTML, CSS, and JavaScript.
 
-## Features
+## 🚀 Features
 
-* Product listing
-* Add to cart functionality
-* Remove items from cart
-* Dynamic price calculation
-* Responsive design
+* 🛍️ Product listing
+* ➕ Add products to cart
+* 🗑️ Remove products from cart
+* 💰 Dynamic cart total calculation
+* 📱 Responsive design
+* ⚡ Interactive user interface
 
-## Technologies Used
+## 🌐 Live Demo
 
-* HTML5
-* CSS3
-* JavaScript (ES6)
+(Add your Netlify/Vercel link here)
 
-## What I Learned
+## 📚 Tech Used
+
+* HTML
+* CSS
+* JavaScript
+
+## 🎯 What I Learned
+
+* DOM Manipulation
+* Event Handling
+* Array Methods
+* Dynamic Rendering
+* Shopping Cart Logic
 
 * DOM Manipulation
 * Event Handling
