@@ -19,7 +19,7 @@ let products = [
   //WATCHES
   { id: 9, name: "Watch", price: 599, image: "images/watch.jpg", category:"watch" },
   { id:10, name:"Men Women Sport LED watch", price:999, image:"images/watch1.jpeg", category:"watch"},
-  { iod:11, name:"Shocknshop Leather Analogue Unisex Watch", price:2999, image:"images/watch2.jpg", category:"watch"},
+  { id:11, name:"Shocknshop Leather Analogue Unisex Watch", price:2999, image:"images/watch2.jpg", category:"watch"},
   { id:12, name:"Shop Joker & Witch Adam & Anne Couple Watch", price:2899, image:"images/watch3.webp", category:"watch"},
   { id:13, name:"Buy Franklord Romeo and juliet couple Watch Series", price:3999, image:"images/watch4.jpg", category:"watch"},
   { id:14, name:"Classic Digital Waterproof Sports Watch", price:2599, image:"images/watch5.jpg", category:"watch"},
