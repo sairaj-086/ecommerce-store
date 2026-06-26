@@ -13,7 +13,7 @@ A responsive E-Commerce web application built using HTML, CSS, and JavaScript.
 
 ## 🌐 Live Demo
 
-(Add your Netlify/Vercel link here)
+https://ecommerce-store-sainath-app.netlify.app/
 
 ## 📚 Tech Used
 
