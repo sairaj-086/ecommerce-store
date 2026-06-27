@@ -75,7 +75,7 @@ This project helped me improve my understanding of:
 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/shopease.git
+https://github.com/sairaj-086/ecommerce-store
 ```
 
 2. Open the project folder.
